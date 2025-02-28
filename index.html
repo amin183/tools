@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your one-stop destination for all image and PDF tools. Compress, convert, edit, and optimize files effortlessly.">
+    <meta name="keywords" content="image tools, PDF tools, online tools, compress images, edit PDF, optimize files">
+    <meta name="author" content="Your Name">
+    <title>Tools Website - Image & PDF Tools</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            font-size: 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #d1ffd6;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #4CAF50;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        /* Tool Categories Section */
+        .tools {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .tools h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .tool-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .tool-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .tool-card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+
+        .tool-card h3 {
+            font-size: 1.4rem;
+            margin: 10px 0;
+        }
+
+        .tool-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .tool-cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Tools Website</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Image Tools</a></li>
+                <li><a href="#">PDF Tools</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Your All-in-One Toolbox</h1>
+        <p>Compress, convert, edit, and optimize images and PDFs effortlessly.</p>
+    </section>
+
+    <!-- Tool Categories Section -->
+    <section class="tools">
+        <h2>Explore Our Tools</h2>
+        <div class="tool-cards">
+            <!-- Image Tools -->
+            <div class="tool-card">
+                <a href="image-tools.html" style="text-decoration: none; color: inherit;">
+                <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="Image Tools">
+                <h3>Image Tools</h3>
+                <p>Compress, resize, and convert images with ease.</p>
+                <span>Explore Image Tools</span>
+              </a>
+           </div>
+            <!-- PDF Tools -->
+            <div class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Tools">
+                <h3>PDF Tools</h3>
+                <p>Merge, split, and optimize PDF files in seconds.</p>
+                <a href="#">Explore PDF Tools</a>
+            </div>
+            <!-- More Tools -->
+            <div class="tool-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1997/1997928.png" alt="More Tools">
+                <h3>More Tools</h3>
+                <p>Discover additional tools for your needs.</p>
+                <a href="#">Explore More Tools</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Tools Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
